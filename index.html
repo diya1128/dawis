@@ -72,7 +72,7 @@ const firebaseConfig = {
 let chatDb = null;
 let firebaseReady = false;
 try {
-  if (firebaseConfig.apiKey && firebaseConfig.apiKey.indexOf('GANTI) === -1) {
+  if (firebaseConfig.apiKey && firebaseConfig.apiKey.indexOf('GANTI') === -1) {
     firebase.initializeApp(firebaseConfig);
     chatDb = firebase.firestore();
     firebaseReady = true;
